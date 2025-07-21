@@ -1,4 +1,4 @@
-# Arduino IDE tarafından oluşturulan geçici dosyalar
+# Arduino IDE ve app.arduino.cc tarafından oluşturulan geçici dosyalar
 *.bin
 *.elf
 *.hex
@@ -37,6 +37,6 @@ build/
 Thumbs.db
 Desktop.ini
 
-# Arduino kütüphane bağımlılıkları (gerekirse hariç tutun)
+# Arduino kütüphane bağımlılıkları
 libraries/*
 !libraries/README.md
