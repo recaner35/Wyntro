@@ -1,41 +1,42 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Arduino IDE tarafından oluşturulan geçici dosyalar
+*.bin
+*.elf
+*.hex
 *.o
-*.obj
+*.d
+*.eep
+*.lst
+*.map
+*.sym
+*.lss
+*.srec
+*.ino.cpp
+*.ino.elf
+*.ino.hex
+*.ino.map
+*.ino.sym
+*.ino.lss
+*.ino.srec
+*.ino.bin
 
-# Precompiled Headers
-*.gch
-*.pch
+# Derleme ve yapılandırma dosyaları
+build/
+.vscode/
+*.bak
+*.tmp
 
-# Linker files
-*.ilk
+# Yerel yapılandırma dosyaları
+.ino.cli
+.ino.cache
+.ino.local
 
-# Debugger Files
-*.pdb
+# macOS sistem dosyaları
+.DS_Store
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Windows sistem dosyaları
+Thumbs.db
+Desktop.ini
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# Arduino kütüphane bağımlılıkları (gerekirse hariç tutun)
+libraries/*
+!libraries/README.md
